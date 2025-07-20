@@ -7,6 +7,10 @@ html {
 
 /* Body element selecter */
 body {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 0.5rem;
     background-color: grey;
 
 }
