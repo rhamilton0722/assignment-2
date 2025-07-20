@@ -2,7 +2,7 @@
 
 /* HTML element selecter */
 html {
-    font: oblique small-caps bold 20px/1.7 "Times new Romans", sans-serif;
+    font: oblique small-caps normal 20px/1.7 "Times new Romans", sans-serif;
 }
 
 /* Body element selecter */
@@ -33,4 +33,38 @@ aside {
 /* Footer element selector  */
 footer {
     clear: both;
+    color: red;
+    font-size: 0.9;
+    text-align: center;
+    background: linear-gradient(black, grey);
+
+}
+
+/* Header element selector */
+header {
+    color: red;
+    font-size: 5rem;
+    text-align: center;
+    background: linear-gradient(black, grey);
+}
+
+/* Section element + H3 element selctors */
+section h3 {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-style: oblique;
+    font-variant: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+/* Section element + H2 element selectors*/
+section h2 {
+    text-align: center;
+    color: red;
+    font-weight: bold;
+    font-style: oblique;
+    font-variant: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
