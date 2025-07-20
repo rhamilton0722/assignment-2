@@ -14,3 +14,23 @@ body {
     background-color: grey;
 
 }
+
+/* Main element selector */
+main {
+    float: left;
+    width: 70%;
+    padding: 0rem;
+}
+
+/* Aside element selector */
+aside {
+    float: right;
+    width: 30%;
+    padding: 0rem;
+
+}
+
+/* Footer element selector  */
+footer {
+    clear: both;
+}
