@@ -1,1 +1,12 @@
 /* Rajuniour Hamilton (9060722) */
+
+/* HTML element selecter */
+html {
+    font: oblique small-caps bold 20px/1.7 "Times new Romans", sans-serif;
+}
+
+/* Body element selecter */
+body {
+    background-color: grey;
+
+}
