@@ -68,3 +68,14 @@ section h2 {
     font-variant: normal;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/* Blockquote element selector */
+blockquote {
+    font-style: italic;
+    background-color: white;
+    padding: 0.5rem;
+    border-left: 0.5rem solid red;
+    width: 80%;
+    margin: center;
+    box-shadow: 0 5px 6px red;
+}
