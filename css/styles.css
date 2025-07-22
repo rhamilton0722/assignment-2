@@ -131,8 +131,7 @@ iframe {
 /* a element selector */
 a {
     text-decoration: none;
-    color: blue;
-    padding: 0.3rem;
+    color: yellow;
 }
 
 
@@ -144,9 +143,12 @@ a:visited {
 /* a:hover element selector */
 a:hover {
     color: white;
+    text-decoration: underline;
 }
+
 
 /* links id element + ul selector */
 #links ul {
     list-style-type: none;
+    padding: 1rem;
 }
