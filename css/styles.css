@@ -114,7 +114,7 @@ iframe {
     width: 100%;
 }
 
-/*  */
+/* Quote id element selector */
 #Quote {
     padding: 0.5;
     border: 0.2rem solid red;
@@ -127,3 +127,5 @@ iframe {
 
 
 }
+
+/*  */
