@@ -180,7 +180,11 @@ table td {
     border: 0.3rem;
 }
 
-/* Table tr:nth-child(even) element selctor, for giving rows alternative colours. */
+/* Table tr:nth-child(even) element selctor (combined/complex selctor), for giving rows alternative colours. */
 table tr:nth-child(even) {
     background-color: brown;
+}
+
+table tr:hover {
+    background-color: blue;
 }
