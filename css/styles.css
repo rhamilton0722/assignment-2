@@ -128,9 +128,14 @@ iframe {
 
 }
 
-/* a element for all links */
+/* a element selector */
 a {
     text-decoration: none;
     color: blue;
     padding: 0.3rem;
+}
+
+/* a:hover element selector */
+a:hover {
+    color: white;
 }
