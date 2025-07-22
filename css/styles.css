@@ -1,6 +1,6 @@
 /* Rajuniour Hamilton (9060722) */
 
-/* HTML element selecter */
+/* HTML element (Type selecter */
 html {
     font: oblique small-caps normal 20px/1.7rem "Times new Romans", sans-serif;
 }
@@ -48,8 +48,9 @@ header {
     background: linear-gradient(black, grey);
 }
 
-/* Section element + H3 element selctors */
-section h3 {
+/* Multiple Selector */
+section h3,
+h2 {
     text-align: center;
     color: red;
     font-weight: bold;
@@ -59,15 +60,7 @@ section h3 {
 
 }
 
-/* Section element + H2 element selectors*/
-section h2 {
-    text-align: center;
-    color: red;
-    font-weight: bold;
-    font-style: oblique;
-    font-variant: normal;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+
 
 /* Blockquote element selector */
 blockquote {
@@ -90,7 +83,7 @@ figure {
 
 }
 
-/*  Figure + image selector*/
+/*  Decendant selector*/
 figure image {
     display: block;
     border: 0.3rem solid red;
@@ -135,7 +128,7 @@ a {
 }
 
 
-/* a:visited element selctor */
+/* Psudo-class selector */
 a:visited {
     color: purple;
 }
@@ -151,7 +144,7 @@ a:active {
     color: brown;
 }
 
-/* links id element + ul selector */
+/* Descendant selector */
 #links ul {
     list-style-type: none;
     padding: 1rem;
@@ -185,7 +178,7 @@ table tr:nth-child(even) {
     background-color: brown;
 }
 
-/* Table tr:hover element selector */
+/* Table tr:hover selecter*/
 table tr:hover {
     background-color: blue;
 }
@@ -205,9 +198,3 @@ table tr:hover {
     border-radius: 0.5rem;
     width: 8rem;
 }
-
-
-@media (max-width: 800px) {
-    html {
-        font-size: 0.700rem;
-    }
