@@ -198,3 +198,12 @@ table tr:hover {
     border-radius: 0.5rem;
     width: 8rem;
 }
+
+/* Responsive design */
+
+@media screen and (max-width: 800px) {
+    #Blockquote {
+        margin: auto;
+        width: 100%;
+    }
+}
