@@ -205,3 +205,9 @@ table tr:hover {
     border-radius: 0.5rem;
     width: 8rem;
 }
+
+
+@media (max-width: 800px) {
+    html {
+        font-size: 0.700rem;
+    }
