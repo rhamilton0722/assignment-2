@@ -222,5 +222,9 @@ table tr:hover {
         width: 90%;
     }
 
-    main {}
+    main {
+        padding: 2rem;
+        float: none;
+        width: 90%;
+    }
 }
