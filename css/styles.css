@@ -33,168 +33,168 @@ aside {
 /* Footer element selector  */
 footer {
     clear: both;
-    color: red;
+    color: black;
     font-size: 0.9rem;
     text-align: center;
-    background: linear-gradient(black, red);
+    background: linear-gradient(white, white;
 
-}
+    }
 
-/* Header element selector */
-header {
-    color: blue;
-    font-size: 5rem;
-    text-align: center;
-    background: linear-gradient(black, black);
-}
+    /* Header element selector */
+    header {
+        color: black;
+        font-size: 5rem;
+        text-align: center;
+        background: linear-gradient(greenyellow, black);
+    }
 
-/* Multiple Selector */
-section h3,
-h2 {
-    text-align: center;
-    color: red;
-    font-weight: bold;
-    font-style: oblique;
-    font-variant: normal;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* Multiple Selector */
+    section h3,
+    h2 {
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        font-style: oblique;
+        font-variant: normal;
+        font-family: Georgia, 'Times New Roman', Times, serif;
 
-}
-
-
-
-/* Blockquote element selector */
-blockquote {
-    font-style: italic;
-    background-color: white;
-    padding: 0.5rem;
-    border-left: 0.5rem solid red;
-    width: 90%;
-    margin: auto;
-    box-shadow: 0 0.4rem 1rem red;
-}
-
-/* Figure element selector */
-figure {
-    border: 0.3rem solid red;
-    border-radius: 0.1rem;
-    padding: 0.5rem;
-    background-color: white;
-    text-align: center;
-
-}
-
-/*  Decendant selector*/
-figure image {
-    display: block;
-    border: 0.3rem solid red;
-    border-radius: 0.1rem;
-    width: 80%;
-    margin: auto;
-
-}
-
-/* Figcaption element selector */
-figcaption {
-    font-size: 0.5rem;
-    font-variant: small-caps;
-}
-
-/* iFrame element selector  */
-iframe {
-    border: 0.3rem solid red;
-    display: block;
-    margin: auto;
-    width: 90%;
-}
-
-/* Quote id element selector */
-#Quote {
-    padding: 0.5rem;
-    border: 0.2rem solid red;
-    box-shadow: 0 0.4 1rem red;
-    width: 60%;
-    margin: auto;
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: blue;
+    }
 
 
-}
 
-/* a element selector */
-a {
-    text-decoration: none;
-    color: yellow;
-}
+    /* Blockquote element selector */
+    blockquote {
+        font-style: italic;
+        background-color: white;
+        padding: 0.5rem;
+        border-left: 0.5rem solid red;
+        width: 90%;
+        margin: auto;
+        box-shadow: 0 0.4rem 1rem red;
+    }
+
+    /* Figure element selector */
+    figure {
+        border: 0.3rem solid red;
+        border-radius: 0.1rem;
+        padding: 0.5rem;
+        background-color: white;
+        text-align: center;
+
+    }
+
+    /*  Decendant selector*/
+    figure image {
+        display: block;
+        border: 0.3rem solid red;
+        border-radius: 0.1rem;
+        width: 80%;
+        margin: auto;
+
+    }
+
+    /* Figcaption element selector */
+    figcaption {
+        font-size: 0.5rem;
+        font-variant: small-caps;
+    }
+
+    /* iFrame element selector  */
+    iframe {
+        border: 0.3rem solid red;
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+
+    /* Quote id element selector */
+    #Quote {
+        padding: 0.5rem;
+        border: 0.2rem solid red;
+        box-shadow: 0 0.4 1rem red;
+        width: 60%;
+        margin: auto;
+        font-style: italic;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: blue;
 
 
-/* Psudo-class selector */
-a:visited {
-    color: purple;
-}
+    }
 
-/* a:hover element selector */
-a:hover {
-    color: white;
-    text-decoration: underline;
-}
+    /* a element selector */
+    a {
+        text-decoration: none;
+        color: yellow;
+    }
 
-/* a:active element selctor */
-a:active {
-    color: brown;
-}
 
-/* Descendant selector */
-#links ul {
-    list-style-type: none;
-    padding: 1rem;
-}
+    /* Psudo-class selector */
+    a:visited {
+        color: purple;
+    }
 
-/* Table element selctor  */
-table {
-    border-collapse: collapse;
-    width: 100%;
-    margin-bottom: 0rem auto;
-}
+    /* a:hover element selector */
+    a:hover {
+        color: white;
+        text-decoration: underline;
+    }
 
-/* Top row of table element slector */
-table th {
-    text-align: left;
-    font-weight: 900rem;
-    font-variant: normal;
-    color: blue;
-    background-color: white;
+    /* a:active element selctor */
+    a:active {
+        color: brown;
+    }
 
-}
+    /* Descendant selector */
+    #links ul {
+        list-style-type: none;
+        padding: 1rem;
+    }
 
-/* Table td element selector for table cells  */
-table td {
-    padding: 1rem;
-    border: 0.3rem;
-}
+    /* Table element selctor  */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin-bottom: 0rem auto;
+    }
 
-/* Table tr:nth-child(even) element selector (combined/complex selctor), for giving rows alternative colours. */
-table tr:nth-child(even) {
-    background-color: brown;
-}
+    /* Top row of table element slector */
+    table th {
+        text-align: left;
+        font-weight: 900rem;
+        font-variant: normal;
+        color: blue;
+        background-color: white;
 
-/* Table tr:hover selecter*/
-table tr:hover {
-    background-color: blue;
-}
+    }
 
-/* Class selector  */
-.form-label {
-    font-variant: normal;
-    font-weight: lighter;
-    color: blue;
-}
+    /* Table td element selector for table cells  */
+    table td {
+        padding: 1rem;
+        border: 0.3rem;
+    }
 
-/* Class selector */
-.form-control {
-    padding: 0.3rem;
-    border: 5rem;
-    margin-bottom: 1.1rem;
-    border-radius: 0.5rem;
-    width: 8rem;
-}
+    /* Table tr:nth-child(even) element selector (combined/complex selctor), for giving rows alternative colours. */
+    table tr:nth-child(even) {
+        background-color: brown;
+    }
+
+    /* Table tr:hover selecter*/
+    table tr:hover {
+        background-color: blue;
+    }
+
+    /* Class selector  */
+    .form-label {
+        font-variant: normal;
+        font-weight: lighter;
+        color: blue;
+    }
+
+    /* Class selector */
+    .form-control {
+        padding: 0.3rem;
+        border: 5rem;
+        margin-bottom: 1.1rem;
+        border-radius: 0.5rem;
+        width: 8rem;
+    }
