@@ -160,5 +160,6 @@ a:active {
 /* Table element selctor  */
 table {
     border-collapse: collapse;
-    width: ;
+    width: 100%;
+    margin-bottom: 0rem auto;
 }
