@@ -111,7 +111,7 @@ iframe {
     border: 0.3rem solid red;
     display: block;
     margin: auto;
-    width: 100%;
+    width: 90%;
 }
 
 /* Quote id element selector */
@@ -195,4 +195,12 @@ table tr:hover {
     font-variant: normal;
     font-weight: lighter;
     color: blue;
+}
+
+/* Class selector */
+.form-control {
+    padding: 0.3rem;
+    border: 5rem;
+    margin-bottom: 1.1rem;
+    border-radius: 0.5rem;
 }
