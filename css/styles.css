@@ -202,8 +202,14 @@ table tr:hover {
 /* Responsive design */
 
 @media screen and (max-width: 800px) {
+
     #Blockquote {
         margin: auto;
         width: 100%;
+    }
+
+    footer {
+        text-align: center;
+        padding: 2rem;
     }
 }
