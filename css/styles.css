@@ -79,3 +79,16 @@ blockquote {
     margin: center;
     box-shadow: 0 5px 6px red;
 }
+
+/* Figure element selector */
+figure {
+    border: 0.3rem solid red;
+    border-radius: 0.1rem;
+    padding: 0.5;
+    background-color: white;
+    text-align: center;
+
+}
+
+/*  Figure + image selector*/
+figure image
