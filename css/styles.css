@@ -91,4 +91,11 @@ figure {
 }
 
 /*  Figure + image selector*/
-figure image
+figure image {
+    display: block;
+    border: 0.3rem solid red;
+    border-radius: 0.1rem;
+    width: 60%;
+    margin: center auto;
+
+}
