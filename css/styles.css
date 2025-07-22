@@ -227,4 +227,9 @@ table tr:hover {
         float: none;
         width: 90%;
     }
+
+    figure {
+        margin: auto;
+        width: 100%;
+    }
 }
