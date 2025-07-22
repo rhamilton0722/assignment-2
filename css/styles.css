@@ -179,3 +179,8 @@ table td {
     padding: 1rem;
     border: 0.3rem;
 }
+
+/* Table tr:nth-child(even) element selctor, for giving rows alternative colours. */
+table tr:nth-child(even) {
+    background-color: brown;
+}
