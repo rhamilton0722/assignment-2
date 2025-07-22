@@ -244,5 +244,8 @@ table tr:hover {
         width: 100%;
     }
 
+    .form-control {
+        width: 90%
+    }
 
 }
