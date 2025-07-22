@@ -216,4 +216,11 @@ table tr:hover {
     html {
         font-size: 1rem;
     }
+
+    figure img {
+        height: auto;
+        width: 90%;
+    }
+
+    main {}
 }
