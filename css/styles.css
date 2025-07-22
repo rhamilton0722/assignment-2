@@ -76,7 +76,7 @@ blockquote {
     padding: 0.5rem;
     border-left: 0.5rem solid red;
     width: 90%;
-    margin: 0rem auto;
+    margin: auto;
     box-shadow: 0 0.4rem 1rem red;
 }
 
@@ -96,7 +96,7 @@ figure image {
     border: 0.3rem solid red;
     border-radius: 0.1rem;
     width: 80%;
-    margin: 0rem auto;
+    margin: auto;
 
 }
 
@@ -110,7 +110,7 @@ figcaption {
 iframe {
     border: 0.3rem solid red;
     display: block;
-    margin: 0rem auto;
+    margin: auto;
     width: 100%;
 }
 
@@ -120,7 +120,7 @@ iframe {
     border: 0.2rem solid red;
     box-shadow: 0 0.4 1rem red;
     width: 60%;
-    margin: 0rem auto;
+    margin: auto;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: blue;
@@ -155,4 +155,10 @@ a:active {
 #links ul {
     list-style-type: none;
     padding: 1rem;
+}
+
+/* Table element selctor  */
+table {
+    border-collapse: collapse;
+
 }
