@@ -128,4 +128,9 @@ iframe {
 
 }
 
-/*  */
+/* a element for all links */
+a {
+    text-decoration: none;
+    color: blue;
+    padding: 0.3rem;
+}
