@@ -248,4 +248,8 @@ table tr:hover {
         width: 90%
     }
 
+    section {
+        margin: auto;
+        width: 100%;
+    }
 }
