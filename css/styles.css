@@ -145,3 +145,8 @@ a:visited {
 a:hover {
     color: white;
 }
+
+/* links id element + ul selector */
+#links ul {
+    list-style-type: none;
+}
