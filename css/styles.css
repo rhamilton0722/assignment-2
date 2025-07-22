@@ -206,31 +206,36 @@ table tr:hover {
     #Blockquote {
         margin: auto;
         width: 100%;
+        padding: auto;
     }
 
     footer {
         text-align: center;
-        padding: 2rem;
+        padding-top: auto;
+
     }
 
     html {
         font-size: 1rem;
+        padding: auto;
     }
 
     figure img {
         height: auto;
-        width: 90%;
+        width: 100%;
+        padding: auto;
     }
 
     main {
         padding: 2rem;
         float: none;
-        width: 90%;
+        width: 100%;
     }
 
     figure {
         margin: auto;
         width: 100%;
+        padding: auto;
     }
 
     aside {
@@ -241,21 +246,26 @@ table tr:hover {
 
     iframe {
         margin: auto;
-        width: 100%;
+        width: 105%;
+        padding: auto;
     }
 
     .form-control {
-        width: 90%
+        width: 100%;
+        padding: auto;
     }
 
     section {
         margin: auto;
         width: 100%;
+        padding: auto;
     }
 
     header {
+        text-align: center;
         margin: auto;
-        width: 90%;
-        font-size: 2rem
+        width: 100%;
+        font-size: 2rem;
+        padding: auto;
     }
 }
