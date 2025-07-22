@@ -99,3 +99,9 @@ figure image {
     margin: center auto;
 
 }
+
+/* Figcaption element selector */
+figcaption {
+    font-size: 0.5;
+    font-variant: small-caps;
+}
