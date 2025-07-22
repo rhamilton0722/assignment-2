@@ -232,4 +232,10 @@ table tr:hover {
         margin: auto;
         width: 100%;
     }
+
+    aside {
+        padding: 1rem;
+        float: none;
+        width: 100%;
+    }
 }
