@@ -75,7 +75,7 @@ blockquote {
     background-color: white;
     padding: 0.5rem;
     border-left: 0.5rem solid red;
-    width: 80%;
+    width: 90%;
     margin: center;
     box-shadow: 0 5px 6px red;
 }
@@ -95,7 +95,7 @@ figure image {
     display: block;
     border: 0.3rem solid red;
     border-radius: 0.1rem;
-    width: 60%;
+    width: 80%;
     margin: center auto;
 
 }
@@ -104,4 +104,12 @@ figure image {
 figcaption {
     font-size: 0.5;
     font-variant: small-caps;
+}
+
+/* iFrame element selector  */
+iframe {
+    border: 0.3rem solid red;
+    display: block;
+    margin: center;
+    width: 100%;
 }
