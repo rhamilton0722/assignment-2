@@ -163,3 +163,13 @@ table {
     width: 100%;
     margin-bottom: 0rem auto;
 }
+
+/* Top row of table element slector */
+table th {
+    text-align: left;
+    font-weight: 900rem;
+    font-variant: normal;
+    color: blue;
+    background-color: white;
+
+}
