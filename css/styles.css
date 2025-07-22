@@ -76,7 +76,7 @@ blockquote {
     padding: 0.5rem;
     border-left: 0.5rem solid red;
     width: 90%;
-    margin: center;
+    margin: 0rem auto;
     box-shadow: 0 5px 6px red;
 }
 
@@ -96,7 +96,7 @@ figure image {
     border: 0.3rem solid red;
     border-radius: 0.1rem;
     width: 80%;
-    margin: center auto;
+    margin: 0rem auto;
 
 }
 
@@ -110,6 +110,8 @@ figcaption {
 iframe {
     border: 0.3rem solid red;
     display: block;
-    margin: center;
+    margin: 0rem auto;
     width: 100%;
 }
+
+/*  */
