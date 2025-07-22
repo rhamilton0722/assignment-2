@@ -173,3 +173,9 @@ table th {
     background-color: white;
 
 }
+
+/* Table td element selector for table cells  */
+table td {
+    padding: 1rem;
+    border: 0.3rem;
+}
