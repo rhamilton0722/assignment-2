@@ -180,11 +180,19 @@ table td {
     border: 0.3rem;
 }
 
-/* Table tr:nth-child(even) element selctor (combined/complex selctor), for giving rows alternative colours. */
+/* Table tr:nth-child(even) element selector (combined/complex selctor), for giving rows alternative colours. */
 table tr:nth-child(even) {
     background-color: brown;
 }
 
+/* Table tr:hover element selector */
 table tr:hover {
     background-color: blue;
+}
+
+/* Class selector  */
+.form-label {
+    font-variant: normal;
+    font-weight: lighter;
+    color: blue;
 }
