@@ -238,4 +238,11 @@ table tr:hover {
         float: none;
         width: 100%;
     }
+
+    iframe {
+        margin: auto;
+        width: 100%;
+    }
+
+
 }
